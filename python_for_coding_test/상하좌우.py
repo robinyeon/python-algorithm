@@ -20,3 +20,8 @@ for direction in directions:
     x, y = nx, ny
 
 print(x, y)
+
+"""
+공간 밖을 벗어나는 값들을 무시하게끔 처리하기 위해서
+nx, ny라는 변수, 그리고 continue가 필요한 것
+"""
